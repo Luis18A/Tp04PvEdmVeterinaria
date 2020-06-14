@@ -1,0 +1,159 @@
+*{
+	font-family: 'Open sans';
+	
+}
+
+.encabezado{
+	border: black 2px solid;
+}
+
+.titulo{
+	text-align: center;
+	padding-top:25px;
+	padding-bottom:25px;
+	background-color:#00e100;
+	border-bottom: black 2px solid;
+}
+
+.navegador {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 10;
+  list-style: none;
+  background-color:#ffb3b3;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  
+}
+
+.btn{
+	margin-top: 5px;
+	margin-left:8px;
+}
+
+.row {
+    display: flex;
+    position: relative;
+}
+
+.esp{
+	padding-top: 25px;
+	padding-bottom:25px
+		
+}
+
+.texto{
+	margin-left:15px;
+}
+
+.noticia-img{
+	margin-left:15px;	
+}
+
+.publicidad{
+	background-color:#ffb3b3;
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: black 2px solid;
+		justify-content:center;
+		width:99.7%;
+	  position: relative	;
+  		display: flex;
+ 	 -ms-flex-direction: column;
+ 	 flex-direction: row;
+ 	 min-width: 0;
+ 	 word-wrap: break-word;
+		
+}
+
+.img-rounded{
+	width:100%;
+	padding:1em;
+	-ms-flex-negative: 0;
+  flex-shrink: 0;
+  
+	
+}
+
+.footer{
+	text-align:center;
+	background-color:#00e100;
+	border: black 2px solid;
+}
+
+.sociales{
+	justify-content:center;
+}
+
+/*adopciones*/
+.card-horizontal {
+	width:100%;
+	margin:2em;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 10px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-img{
+	justify-content:center;
+}
+
+.card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  
+.cuerpo{
+	background-color:#ffffb3;
+	padding-bottom:35px;
+}
+
+.table{
+	justify-content:center;
+	background-color: #fff;
+  background-clip: border-box;
+  border: 10px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+}
+
+.titulo1{
+	text-align: center;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.formulario{
+	justify-content:center;
+	padding-bottom:30px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+
+.nombre{
+	margin-left:30px;
+}
+
+.dni{
+	margin-left:65px;
+}
+
+.z{
+	margin-left:75px;
+}
